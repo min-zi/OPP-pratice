@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0986aa8-6947-4b7f-988a-e8e376709c40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e0986aa8-6947-4b7f-988a-e8e376709c40" name="Changes" comment="사칙 연산 계산기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/AdditionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/DivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/MultiplicationOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/NewArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/SubtractionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PositiveNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PasswordGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PasswordValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RandomPasswordGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CorrectFixedPasswordGernerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PasswordValidatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WrongFixedPasswordGernerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,12 +92,12 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.PositiveNumberTest.createTest (1)">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.calculateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="additionTest" />
+      <option name="METHOD_NAME" value="calculateExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,7 +128,7 @@
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.calculate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.subtractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberTest.createTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
@@ -154,14 +149,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtractionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="createTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-pratice.test" />
       <extension name="coverage">
         <pattern>
@@ -170,19 +165,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositiveNumberTest.createTest (1)" />
+        <item itemvalue="JUnit.PositiveNumberTest.createTest" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateTest" />
-        <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
-        <item itemvalue="JUnit.CalculatorTest.additionTest" />
-        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,8 +194,17 @@
       <workItem from="1688461648133" duration="7487000" />
       <workItem from="1690775775599" duration="10746000" />
       <workItem from="1690871309479" duration="4478000" />
-      <workItem from="1690978056180" duration="5649000" />
+      <workItem from="1690978056180" duration="6290000" />
+      <workItem from="1690990258602" duration="6921000" />
     </task>
+    <task id="LOCAL-00001" summary="사칙 연산 계산기">
+      <created>1690983719027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690983719027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,5 +220,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="사칙 연산 계산기" />
+    <option name="LAST_COMMIT_MESSAGE" value="사칙 연산 계산기" />
   </component>
 </project>
