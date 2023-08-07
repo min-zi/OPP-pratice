@@ -12,6 +12,10 @@ public class Course {
         this.grade = grade;
     }
 
+    public double multiplyCreditAndCourseGrade() {
+        return credit * getGradeToNumber(); // 학점수 * 성적정보
+    }
+
     public int getCredit() {
         return credit;
     }

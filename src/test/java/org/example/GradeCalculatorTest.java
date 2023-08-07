@@ -14,6 +14,7 @@ public class GradeCalculatorTest {
         List<Course> courses = List.of(new Course("OOP", 3, "A+"),
                 new Course("자료구조", 3, "A+"));
 
+        // 이수한 과목을 전달하여 평균학점 계산을 요청
         GradeCalculator gradeCalculator = new GradeCalculator(courses);
         double gradeResult = gradeCalculator.calculateGrade();
 

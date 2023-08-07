@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0986aa8-6947-4b7f-988a-e8e376709c40" name="Changes" comment="사칙 연산 계산기 리팩토링">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CourseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GradeCalculatorTest.java" afterDir="false" />
+    <list default="true" id="e0986aa8-6947-4b7f-988a-e8e376709c40" name="Changes" comment="학점 계산기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Courses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArithmeticOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/AdditionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/DivisionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/MultiplicationOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/NewArithmeticOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/PositiveNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculate/SubtractionOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PositiveNumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GradeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GradeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GradeCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GradeCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +172,6 @@
         <item itemvalue="JUnit.GradeCalculatorTest.calculateGradeTest" />
         <item itemvalue="JUnit.GradeCalculatorTest" />
         <item itemvalue="JUnit.CourseTest.createTest" />
-        <item itemvalue="JUnit.PositiveNumberTest.createTest (1)" />
         <item itemvalue="JUnit.PositiveNumberTest.createTest" />
       </list>
     </recent_temporary>
@@ -201,7 +190,9 @@
       <workItem from="1690871309479" duration="4478000" />
       <workItem from="1690978056180" duration="6290000" />
       <workItem from="1690990258602" duration="7904000" />
-      <workItem from="1691129791501" duration="8016000" />
+      <workItem from="1691129791501" duration="8680000" />
+      <workItem from="1691239942590" duration="2380000" />
+      <workItem from="1691397958801" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="사칙 연산 계산기">
       <created>1690983719027</created>
@@ -217,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691045713532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="학점 계산기">
+      <created>1691161203594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691161203594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +235,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="사칙 연산 계산기" />
     <MESSAGE value="사칙 연산 계산기 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="사칙 연산 계산기 리팩토링" />
+    <MESSAGE value="학점 계산기" />
+    <option name="LAST_COMMIT_MESSAGE" value="학점 계산기" />
   </component>
 </project>
