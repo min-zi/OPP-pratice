@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
 
-public class CourseTest {
+public class MenuItemTest {
 
-    @DisplayName("과목(코스)을 생성한다.")
+    @DisplayName("메뉴항목을 생성한다.")
     @Test
     void createTest() {
-        assertThatCode(() -> new Course("OOP", 3, "A"))
+        assertThatCode(() -> new MenuItem("만두", 5000))
                 .doesNotThrowAnyException();
     }
 }
